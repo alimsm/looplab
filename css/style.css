@@ -1,0 +1,51 @@
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #333;
+  color:#fff;
+
+}
+.fas{
+  background: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.navbar{
+  border-bottom: 3px solid #008ed6;
+  background: #292b2c;
+  opacity: 0.7;
+  position: sticky;
+  top: 0;
+  z-index:1;
+}
+#home-top{
+  padding: 60px 0;
+}
+#home-top{
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) ,url('../img/home.jpg');
+  background-size: cover;
+}
+#explore-2{
+  background: #fff;
+}
+
+#create-1{
+  background: #007BFF;
+}
+#share-1{
+  background: #007BFF;
+}
+#share-2{
+  background: #fff;
+}
+footer p a{
+  text-decoration: none;
+}
+footer p a:hover{
+  text-decoration: underline;
+}
